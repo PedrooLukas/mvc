@@ -1,0 +1,27 @@
+/* Cores de alto contraste para acessibilidade */
+:root {
+    --cor-primaria: #0056b3;
+    --cor-sucesso: #28a745;
+    --cor-texto: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#btn-acao-principal {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s; /* Suaviza a interação */
+}
+
+/* Feedback visual ao passar o mouse (Hover) */
+#btn-acao-principal:hover {
+    background-color: #003d7a;
+    transform: scale(1.05);
+}
